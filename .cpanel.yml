@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/improve/public_html/goodhomes.com.br
+    - /bin/cp -r * $DEPLOYPATH
